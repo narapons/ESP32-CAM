@@ -133,6 +133,8 @@ void configESPCamera() {
   // COLOR BAR PATTERN (0 = Disable , 1 = Enable)
   s->set_colorbar(s, 0);
 
+  // Setting Frame Size (UXGA)
+  s->set_framesize(s, FRAMESIZE_UXGA);
 
 }
 
